@@ -1,6 +1,6 @@
-# vrt-stops
+# vrm-stops
 
-This is a simple script to download all [VRM](http://www.vrminfo.de/) stops as [GTFS-compatible CSV](https://developers.google.com/transit/gtfs/reference/stops-file).
+This is a simple script to download all [VRM](http://www.vrminfo.de) stops as [GTFS-compatible CSV](https://developers.google.com/transit/gtfs/reference/stops-file).
 
 The script uses the following endpoint:
 
@@ -13,8 +13,8 @@ It starts from bounding box `(5, 47, 15, 56)` and works down to smaller quadrant
 The script produces CSV output in the following format:
 
 ```
-stop_id","stop_name","stop_lon","stop_lat","stop_code"
-"15012344","Berndroth, Berndroth Ort",7.9677517623,50.236758537,"de:7141:12344"
+"stop_id","stop_name","stop_lon","stop_lat","stop_code"
+"15014748","Schauren (Kr Cochem), Hauptstraﬂe",7.269230665799999,50.0214835666,"de:7135:14748"
 ```
 
 # Usage
